@@ -1,6 +1,8 @@
 # Use our wildfly 9.0.1 + postgres driver as base image
 FROM rackerlabs/wildfly-postgres
 
+MAINTAINER noam.krendel@rackspace.com
+
 # Set some needed environment variables
 ENV GITHUB_URL https://github.com/nkrendel/wildfly-docker
 ENV REPO_URL https://repository.apache.org/content/repositories/releases

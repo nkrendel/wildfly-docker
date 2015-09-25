@@ -1,6 +1,8 @@
 # Use base wildfly 9.0.1 image as the base
 FROM jboss/wildfly:9.0.1.Final
 
+MAINTAINER noam.krendel@rackspace.com
+
 # Set some environment variables
 ENV POSTGRES_VERSION 9.3-1102
 
